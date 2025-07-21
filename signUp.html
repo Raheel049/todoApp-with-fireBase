@@ -7,14 +7,39 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="signUp-page">
+    
     <div class="SignUp">
       <h1>SignUp</h1>
-      <input type="text" id="firstName" placeholder="Enter your First name" />
-      <input type="text" id="lastName" placeholder="Enter your Last name" />
-      <input type="text" id="email" placeholder="Enter your email" />
+      <div class="inputField">
+        <label for="">FirstName</label>
+        <input type="text" id="firstName" placeholder="Enter your First name" />
+      </div>
+
+      <div class="inputField">
+        <label for="">LastName</label>
+        <input type="text" id="lastName" placeholder="Enter your Last name" />
+      </div>
+
+      <div class="inputField">
+        <label for="">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" />
+      </div>
+
+      <div class="inputField">
+        <label for="">Password</label>
       <input type="password" id="password" placeholder="Enter your password" />
+      </div>
+
+      <div class="inputField">
+        <label for="">phoneNo</label>
       <input type="text" id="phoneNo" placeholder="Enter your phone Number" />
+      </div>
+
+      <div class="inputField">
+        <label for="">DOB</label>
       <input type="date" id="DOB" placeholder="Enter your DOB" />
+      </div>
+
       <button onclick="signUpHandler()">SignUp</button>
     </div>
 
