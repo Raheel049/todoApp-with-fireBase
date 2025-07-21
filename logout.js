@@ -22,6 +22,9 @@
 
 import { collection, db, query, where, getDocs,getDoc, deleteDoc, doc, auth, deleteUser, EmailAuthProvider, reauthenticateWithCredential } from "/firebase.js";
 
+const logoutBtn = document.getElementById("logoutBtn")
+logoutBtn.addEventListner("click", logoutHandler)
+
 const logoutHandler = async () => {
   console.log("Logging out...");
 
