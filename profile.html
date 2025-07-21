@@ -11,9 +11,10 @@
 </head>
 <body onload="fetchUserData()" class="profile-page">
 
+
     <div class="container-fluid">
         <div class="row">
-          <nav class="navbar navbar-expand-lg bg-success w-100">
+          <nav class="navbar navbar-expand-lg bg-success w-100 fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand text-white"><b>TODO</b></a>
               <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
@@ -34,12 +35,17 @@
 
 
     <h1 class="userProfileH1">User Profile</h1>
+
     <div class="userData">
-        <input type="text" id="firstName" onclick="updataProfileFirstName()" />
-        <input type="text" id="lastName" onclick="updateProfileLastName()" />
+      <img src="" alt="" id="newImg">
+        <input type="text" id="firstName" />
+        <input type="text" id="lastName" />
         <input type="text" id="email" disabled />
         <input type="text" id="DOB" disabled />
-        <input type="text" id="phoneNo" disabled>
+        <input type="text" id="phoneNo" />
+        <input type="file" onchange="fileHandlerPic()" id="profileImg">
+
+        <button onclick="updateUserData()" id="updateBtn">UpdateProfile</button>
     </div>
 </body>
 <script src="profile.js" type="module"> </script>
