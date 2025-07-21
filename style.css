@@ -415,3 +415,28 @@ body.login-page {
     width: 80px;
     border-radius: 50%;
   }
+
+#updateBtn{
+    width: 100px;
+    height: 38px;
+    border-radius: 22px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+    margin: 0 auto;
+  }
+
+  .input-container label{
+    margin-left: 10px;
+  }
+
+  .SignUp label{
+    margin-left: 10px;
+  }
+
+
+  .inputField{
+    display: flex;
+    flex-direction: column;
+  }
+
