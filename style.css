@@ -409,3 +409,9 @@ body.login-page {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+#newImg{
+    height: 100px;
+    width: 80px;
+    border-radius: 50%;
+  }
